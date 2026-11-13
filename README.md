@@ -309,11 +309,11 @@ FPS ≈ baudrate / 10 / (7 + 3·N)
 
 Если включён **«Закрывать приложение при таймауте»**, то при автозапуске без подключённой ESP приложение само завершится через заданное время.
 
-### Сборка в один `.exe` (по желанию)
+### Сборка в один `.exe` (по желанию) в релизах готовый
 
 ```bash
 pip install pyinstaller
-pyinstaller --noconsole --onefile Ambilight6.py
+pyinstaller --noconsole --onefile --clean --name AmbilightHub Ambilight.py
 ```
 
 Готовый файл появится в папке `dist/`.
