@@ -346,11 +346,11 @@ pyinstaller --noconsole --onefile Ambilight6.py
 .
 ├── Ambilight.py              # Приложение целиком: GUI, захват, обработка, UART
 ├── ambilight_config.json      # Создаётся автоматически при первом изменении настроек
-├── esp32s3Ambilight.ino      #пшива для esp32s3
+├── esp32s3Ambilight.ino      #пшивка для esp32s3
 └── README.md
 ```
 
-Основные части кода `Ambilight6.py`:
+Основные части кода `Ambilight.py`:
 
 | Компонент | Роль |
 |---|---|
