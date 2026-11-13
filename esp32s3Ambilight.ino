@@ -15,7 +15,7 @@ bool isConfigured = false;
 
 // Переменные для управления яркостью и плавным розжигом
 uint8_t currentMasterBrightness = 0; 
-uint8_t targetMasterBrightness = 50; // Страховочное значение по умолчанию, чтобы не был ноль
+uint8_t targetMasterBrightness = 50; 
 bool hasFadedOut = true;
 
 void setup() {
