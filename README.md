@@ -234,6 +234,8 @@ python Ambilight_8.py
 
 ### Вкладка «Общие параметры»
 
+<img width="649" height="694" alt="image" src="https://github.com/user-attachments/assets/5944ef8c-8fa1-4814-a10b-80c01ba07484" />
+
 | Параметр | Описание |
 |---|---|
 | **Режим использования периметра** | Полный периметр (4 стороны) · Только нижняя линия · П-образный (низ + лево + право) |
@@ -249,6 +251,9 @@ python Ambilight_8.py
 | **Тестовый режим** | `Disabled` · `Red` · `Green` · `Blue` |
 
 ### Вкладка «Цвет и Гамма»
+
+<img width="648" height="691" alt="image" src="https://github.com/user-attachments/assets/ed44f3eb-5341-434e-b591-72a69e2be7b2" />
+
 
 | Параметр | Диапазон | Назначение |
 |---|---|---|
