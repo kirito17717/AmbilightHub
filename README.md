@@ -290,6 +290,8 @@ python Ambilight_8.py
    │      │  ▒▒▒▒▒▒▒▒▒  НИЖНЯЯ  ▒▒▒▒▒▒▒▒▒   │      │
    └──────┴──────────────────────────────────┴──────┘
 ```
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/a9bec4b1-0b7d-4064-86fd-473378671516" />
+
 
 ### Как правильно настроить ленту — пошагово
 
