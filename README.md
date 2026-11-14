@@ -122,7 +122,7 @@ python -m venv .venv
 pip install numpy mss pyserial PyQt6
 
 # 4. Запустите
-python Ambilight6.py
+python Ambilight.py
 ```
 
 Что происходит при запуске:
