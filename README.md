@@ -173,7 +173,7 @@ python Ambilight_8.py
 
 ## 🔧 Прошивка ESP32-S3
 
-Скетч [`firmware/Ambilight_NeoPixel_1/Ambilight_NeoPixel_1.ino`](firmware/Ambilight_NeoPixel_1/Ambilight_NeoPixel_1.ino) принимает пакеты от приложения по UART и выводит цвета на ленту через библиотеку **Adafruit NeoPixel**.
+Скетч [`Ambilight_NeoPixel_1.ino`](Ambilight_NeoPixel_1.ino) принимает пакеты от приложения по UART и выводит цвета на ленту через библиотеку **Adafruit NeoPixel**.
 
 ### Параметры прошивки
 
