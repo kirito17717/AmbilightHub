@@ -452,9 +452,7 @@ pyinstaller --noconsole --onefile Ambilight_8.py
 .
 ├── Ambilight_8.py                     # Приложение для ПК: GUI, захват, обработка, UART
 ├── ambilight_config.json              # Создаётся автоматически при первом изменении настроек
-├── firmware/
-│   └── Ambilight_NeoPixel_1/
-│       └── Ambilight_NeoPixel_1.ino   # Прошивка ESP32-S3 (папка называется так же, как скетч)
+├── Ambilight_NeoPixel.ino           # Прошивка ESP32-S3 (папка называется так же, как скетч)
 └── README.md
 ```
 
@@ -473,7 +471,7 @@ pyinstaller --noconsole --onefile Ambilight_8.py
 | `MainWindow` | Окно настроек с вкладками |
 | `TrayApp` | Иконка и меню в системном трее |
 
-Прошивка `Ambilight_NeoPixel_1.ino` — один файл: `setup()` создаёт ленту с параметрами по умолчанию, а `loop()` побайтово ищет заголовки пакетов `Cfg` и `Ada`, управляет яркостью и выводит кадр в ленту.
+Прошивка `Ambilight_NeoPixel.ino` — один файл: `setup()` создаёт ленту с параметрами по умолчанию, а `loop()` побайтово ищет заголовки пакетов `Cfg` и `Ada`, управляет яркостью и выводит кадр в ленту.
 
 ## 🤝 Вклад в проект
 
