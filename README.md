@@ -131,7 +131,7 @@ flowchart LR
 
 ### 2. Прошейте ESP32-S3
 
-Откройте `Ambilight_NeoPixel_1.ino` в Arduino IDE, установите библиотеку **Adafruit NeoPixel** и загрузите скетч на плату. Пошаговая инструкция — в разделе [Прошивка ESP32-S3](#-прошивка-esp32-s3).
+Откройте `Ambilight_NeoPixel.ino` в Arduino IDE, установите библиотеку **Adafruit NeoPixel** и загрузите скетч на плату. Пошаговая инструкция — в разделе [Прошивка ESP32-S3](#-прошивка-esp32-s3).
 
 ### 3. Запустите приложение
 
@@ -173,7 +173,7 @@ python Ambilight_8.py
 
 ## 🔧 Прошивка ESP32-S3
 
-Скетч [`Ambilight_NeoPixel_1.ino`](Ambilight_NeoPixel_1.ino) принимает пакеты от приложения по UART и выводит цвета на ленту через библиотеку **Adafruit NeoPixel**.
+Скетч [`Ambilight_NeoPixel.ino`](Ambilight_NeoPixel.ino) принимает пакеты от приложения по UART и выводит цвета на ленту через библиотеку **Adafruit NeoPixel**.
 
 ### Параметры прошивки
 
